@@ -39,4 +39,36 @@ play-store-review-analysis/
 ├── sentiment_analysis_kaggle.py       # Performs sentiment analysis
 ├── cluster_reviews_kaggle.py          # Clusters the reviews
 ├── requirements.txt                   # Project dependencies
-└── README.md                          # You’re here!
+└── README.md                          # Project documentation (this file)
+
+---
+
+## 🚀 How to Run Locally
+
+1️⃣ **Clone this repository**
+```bash
+git clone https://github.com/AdhithyaR2/play-store-review-analysis.git
+cd play-store-review-analysis
+
+pip install -r requirements.txt
+
+streamlit run dashboard.py
+
+🌐 Live App
+
+Check out the live app here:
+👉 play-store-review-analysis.streamlit.app
+
+📌 Credits
+	•	Hugging Face Transformers for pretrained models
+	•	Streamlit for rapid deployment
+	•	Kaggle Play Store review datasets for testing
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+📣 Author
+
+Made with ♥️ by Adhithya R
+
