@@ -1,5 +1,10 @@
 # 📱 Play Store Review Sentiment Analysis Dashboard
 
+🌐 Live App
+
+Check out the live app here:
+https://play-store-review-analysis-zrhcy7gxteovzznmyjcxuq.streamlit.app/
+
 An interactive AI-powered Streamlit dashboard for analyzing user reviews from the Google Play Store.  
 This project uses Natural Language Processing (NLP) techniques to clean, classify, and cluster user reviews based on their sentiment.
 
@@ -43,11 +48,6 @@ cd play-store-review-analysis
 pip install -r requirements.txt
 
 streamlit run dashboard.py
-
-🌐 Live App
-
-Check out the live app here:
-👉 play-store-review-analysis.streamlit.app
 
 📌 Credits
 	•	Hugging Face Transformers for pretrained models
