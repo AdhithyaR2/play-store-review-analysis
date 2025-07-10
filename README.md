@@ -30,3 +30,13 @@ This project uses Natural Language Processing (NLP) techniques to clean, classif
 ---
 
 ## 📁 Project Structure
+play-store-review-analysis/
+├── data/
+│   └── clustered_reviews.csv          # Processed dataset used by the dashboard
+├── dashboard.py                       # Streamlit app script
+├── scrape_reviews.py                  # (Optional) Scraper for Play Store reviews
+├── process_reviews_kaggle.py          # Preprocesses raw reviews from a CSV
+├── sentiment_analysis_kaggle.py       # Performs sentiment analysis
+├── cluster_reviews_kaggle.py          # Clusters the reviews
+├── requirements.txt                   # Project dependencies
+└── README.md                          # You’re here!
